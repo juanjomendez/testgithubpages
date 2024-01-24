@@ -4,6 +4,8 @@ $data = "{$action}";
 $myFile = "TestingData.txt";
 
 
+file_put_contents_PHP4($myFile, 'asdf');
+
     if($action == "") 
     {
         echo ("NO DATA RECIEVED");
